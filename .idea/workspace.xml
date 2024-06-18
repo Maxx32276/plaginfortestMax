@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36d1d65e-4572-4680-907a-f2106a0fb682" name="Changes" comment="Добавление описания, и структура для непрерывного запуска тестов">
-      <change afterPath="$PROJECT_DIR$/testAuto2.1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testAuto3.1(Freelancer.COM).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testAuto3.2(Kwork).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testAuto3.3(HABR).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testAuto4.0(FreelancE).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testAuto5.0(Kwork).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SeleniumTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/var.py" beforeDir="false" afterPath="$PROJECT_DIR$/var.py" afterDir="false" />
     </list>
     <list id="f64cf44f-17ec-4c83-82a0-6a9256d7f4a4" name="Changes by max" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -186,7 +177,7 @@
       <workItem from="1718175683629" duration="22444000" />
       <workItem from="1718201103916" duration="30436000" />
       <workItem from="1718346714577" duration="21774000" />
-      <workItem from="1718606201727" duration="29074000" />
+      <workItem from="1718606201727" duration="29727000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление переменных">
       <option name="closed" value="true" />
