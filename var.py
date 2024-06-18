@@ -1,6 +1,6 @@
 # Стоит ли переделывать переменные под словарь ...
 
-pathToPlagin = "C:/Users/crm.28540/Desktop/USP_Plugin"
+pathToPlagin = "/Users/max/Downloads/USP_Plugin"
 
 urlHabr = "https://freelance.habr.com/"
 urlHabrNew = "https://freelance.habr.com/tasks/581436" # новая

@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36d1d65e-4572-4680-907a-f2106a0fb682" name="Changes" comment="+ переменная">
+    <list default="true" id="36d1d65e-4572-4680-907a-f2106a0fb682" name="Changes" comment="Добавление описания, и структура для непрерывного запуска тестов">
+      <change afterPath="$PROJECT_DIR$/testAuto2.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testAuto3.1(Freelancer.COM).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testAuto3.2(Kwork).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testAuto3.3(HABR).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testAuto4.0(FreelancE).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testAuto5.0(Kwork).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SeleniumTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SeleniumTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1testFreelance.py" beforeDir="false" afterPath="$PROJECT_DIR$/1testFreelance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2testFreelancer.py" beforeDir="false" afterPath="$PROJECT_DIR$/2testFreelancer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3testHabr.py" beforeDir="false" afterPath="$PROJECT_DIR$/3testHabr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4testKwork.py" beforeDir="false" afterPath="$PROJECT_DIR$/4testKwork.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chrome_driver_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/chrome_driver_utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/var.py" beforeDir="false" afterPath="$PROJECT_DIR$/var.py" afterDir="false" />
     </list>
     <list id="f64cf44f-17ec-4c83-82a0-6a9256d7f4a4" name="Changes by max" comment="" />
@@ -34,9 +37,6 @@
     &quot;accountId&quot;: &quot;f994ca66-5dca-420a-a898-c2b5e31fc85c&quot;
   }
 }</component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -70,11 +70,24 @@
     "Python.enterHabr.executor": "Run",
     "Python.enterKwork.executor": "Run",
     "Python.test.executor": "Run",
+    "Python.testAuto(HABR).executor": "Run",
+    "Python.testAuto3.1(Freelancer.COM).executor": "Run",
+    "Python.testAuto3.2(Kwork).executor": "Run",
+    "Python.testAuto3.3(FreelancE).executor": "Run",
+    "Python.testAuto3.3(HABR).executor": "Run",
+    "Python.testAuto4.0(FreelancE).executor": "Run",
+    "Python.testAuto5.0(Kwork).executor": "Run",
     "Python.var.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/crm.28540/Desktop/plaginfortest",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "last_opened_file_path": "/Users/max/plaginfortest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -96,6 +109,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -115,6 +129,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docs" factoryName="Docutils task">
@@ -155,7 +170,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-48aec45f0201-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17011.127" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
       </set>
     </attachedChunks>
   </component>
@@ -167,6 +183,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717141195616</updated>
+      <workItem from="1718175683629" duration="22444000" />
+      <workItem from="1718201103916" duration="30436000" />
+      <workItem from="1718346714577" duration="21774000" />
+      <workItem from="1718606201727" duration="29074000" />
     </task>
     <task id="LOCAL-00001" summary="Добавление переменных">
       <option name="closed" value="true" />
@@ -312,24 +332,11 @@
       <option name="project" value="LOCAL" />
       <updated>1718087881546</updated>
     </task>
-    <task id="LOCAL-00019" summary="добавлен кейс C3460 и необходимые перменные">
-      <option name="closed" value="true" />
-      <created>1718188309184</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1718188309184</updated>
-    </task>
-    <task id="LOCAL-00020" summary="+ переменная">
-      <option name="closed" value="true" />
-      <created>1718188785189</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1718188785189</updated>
-    </task>
-    <option name="localTasksCounter" value="21" />
+    <option name="localTasksCounter" value="19" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -354,8 +361,28 @@
     <MESSAGE value="Добавленна кастомная команда на проверку соответвия текста в элементе" />
     <MESSAGE value="Добавил тесты" />
     <MESSAGE value="Добавление описания, и структура для непрерывного запуска тестов" />
-    <MESSAGE value="добавлен кейс C3460 и необходимые перменные" />
-    <MESSAGE value="+ переменная" />
-    <option name="LAST_COMMIT_MESSAGE" value="+ переменная" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление описания, и структура для непрерывного запуска тестов" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testAuto4.0(FreelancE).py</url>
+          <line>364</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/plaginfortest$testAuto_HABR_.coverage" NAME="testAuto(HABR) Coverage Results" MODIFIED="1718284285465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$testAuto4_0_FreelancE_.coverage" NAME="testAuto4.0(FreelancE) Coverage Results" MODIFIED="1718359666432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$3testHabr.coverage" NAME="3testHabr Coverage Results" MODIFIED="1718350780481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$testAuto3_3_HABR_.coverage" NAME="testAuto3.3(HABR) Coverage Results" MODIFIED="1718368905655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$testAuto3_1_Freelancer_COM_.coverage" NAME="testAuto3.1(Freelancer.COM) Coverage Results" MODIFIED="1718355171823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$testAuto3_3_FreelancE_.coverage" NAME="testAuto3.3(FreelancE) Coverage Results" MODIFIED="1718270953016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$chrome_driver_utils.coverage" NAME="chrome_driver_utils Coverage Results" MODIFIED="1718280882818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$testAuto5_0_Kwork_.coverage" NAME="testAuto5.0(Kwork) Coverage Results" MODIFIED="1718712855238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/plaginfortest$testAuto3_2_Kwork_.coverage" NAME="testAuto3.2(Kwork) Coverage Results" MODIFIED="1718709202352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
