@@ -62,7 +62,26 @@ if __name__ == "__main__":
     except Exception as e:
         print(f"Error running C3446: {e}")
 ```
-
+### Конструкция для запуска тестов без постоянной логинизации
+```sh
+def C3467_usp_Moderation_btn(driver):
+    try:
+        # Проверка
+    except NoSuchElementException as e:
+        # Исключение
+    return driver
+```
+```sh
+if __name__ == "__main__":
+    driver = None
+    try:
+        if driver is None:
+            driver = setup_driver() #Если driver не был найден то выполняется логинизация
+            navigate_and_login(driver)
+        C3467_usp_Moderation_btn(driver)
+    except Exception as e:
+        print(Fore.RED + "Error running C3467: {e}" + Style.RESET_ALL)
+```
 
 #### Использование команды для ввода текста
 <code>
